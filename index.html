@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel With Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="travel2.jpeg" style="background-size: cover;">
+    <header>
+        <nav>
+            <div class="logo">TravelWithUs</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero" style="color: black;" >
+            <h1>Explore the World with Us</h1>
+            <p>Your adventure starts here. Discover new places and create unforgettable memories.</p>
+            <a href="#destinations" class="cta-button">Discover More</a>
+        </div>
+    </header>
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="images/paris.jpeg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The city of love and lights.</p>
+            </div>
+            <div class="destination">
+                <img src="images/bali.jpeg" alt="Bali">
+                <h3>Bali</h3>
+                <p>Experience paradise on earth.</p>
+            </div>
+            <div class="destination">
+                <img src="images/newyork.jpeg" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">
+                <!-- HERE WE HAVE TO FIX THE IMAGE SIZE PROBLEM -->
+                <img src="images/flight.jpeg" alt="Flight Booking"  >
+                <h3>Flight Booking</h3>
+                <p>Book flights to your favorite destinations at the best prices.</p>
+            </div>
+            <div class="service">
+                <img src="images/hotel.jpeg" alt="Hotel Reservations">
+                <h3>Hotel Reservations</h3>
+                <p>Find and book hotels that suit your needs and budget.</p>
+            </div>
+            <div class="service">
+                <img src="images/insurance.jpeg" alt="Travel Insurance">
+                <h3>Travel Insurance</h3>
+                <p>Get comprehensive travel insurance for a worry-free trip.</p>
+            </div>
+        </div>
+    </section>
+    <style>.services-grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .service {
+        text-align: center;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px; /* Adjust width as needed */
+    }
+    
+    .service img {
+        width: 100%;
+        height: 200px; /* Set a fixed height */
+        object-fit: cover; /* Ensures images maintain aspect ratio and fill the box */
+        border-radius: 10px;
+    }
+    </style>    
+    <footer>
+        <p>&copy; 2025 TravelWithUs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
